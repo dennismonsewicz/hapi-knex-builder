@@ -1,0 +1,31 @@
+{
+  "name": "hapi-knex-builder",
+  "version": "0.1.0",
+  "description": "Hapijs Plugin that uses creates a Knex.js middleware for use with pagination/sorting/etc",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dennismonsewicz/hapi-knex-builder.git"
+  },
+  "keywords": [
+    "hapijs",
+    "knexjs"
+  ],
+  "author": "Dennis Monsewicz <dennismonsewicz@gmail.com> (dennismonsewicz.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennismonsewicz/hapi-knex-builder/issues"
+  },
+  "homepage": "https://github.com/dennismonsewicz/hapi-knex-builder#readme",
+  "dependencies": {
+    "knex": "^0.8.6"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4"
+  }
+}
