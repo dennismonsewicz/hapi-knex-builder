@@ -1,12 +1,11 @@
 'use strict';
 
-'use strict';
-
+var _ = require('lodash');
 var mixin = require('./lib/request').mixin;
 
 exports.register = function (server, options, next) {
-
-    var knex = server.plugins.db.knex;
+    var opts = _.extend(server.settings.app, options, {});
+    var knex = require('knex')(opts.sql);
 
     server.ext('onPreHandler', function (request, reply) {
         mixin(knex, request);
