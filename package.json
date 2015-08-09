@@ -1,7 +1,7 @@
 {
   "name": "hapi-knex-builder",
   "version": "0.4.0",
-  "description": "Hapijs Plugin that uses creates a Knex.js middleware for use with pagination/sorting/etc",
+  "description": "Hapijs Plugin that creates a Knex.js middleware for use with pagination/sorting/etc",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha test --recursive"
